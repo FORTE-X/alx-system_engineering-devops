@@ -1,7 +1,2 @@
 #!/bin/bash
-
-current_dir=$(pwd)
-cd "$OLDPWD"
-echo "Changed to the previous directory: $OLDPWD"
-echo "Current directory is now: $(pwd)"
-exit 0
+cd -
